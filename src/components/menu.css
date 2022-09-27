@@ -1,0 +1,33 @@
+@import "colors.css";
+
+.menuItemsContainer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 4rem;
+}
+
+.menuContainer{
+  background-color: var(--menuBackground);
+  width: 100%;
+  background-image: url("../images/aboutBackground.jpg");
+  vertical-align: middle;
+}
+
+.menuItemContainer{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.menuItem{
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  border-style: inset;
+}
+
+a{
+  text-decoration: none;
+  color: var(--menuItem);
+}

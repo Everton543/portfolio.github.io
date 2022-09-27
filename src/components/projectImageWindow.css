@@ -1,0 +1,24 @@
+.projectHighlightImage{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.projectImageWindow{
+    height: 300px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    align-content: center;
+    object-fit: none;
+}
+
+.projectsWindowsContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projectWindow{
+    margin-bottom: 5rem;
+}

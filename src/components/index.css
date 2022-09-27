@@ -1,0 +1,4 @@
+@import "colors.css";
+body{
+    background-color: var(--websiteBackground);
+}

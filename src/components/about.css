@@ -1,0 +1,57 @@
+@import "colors";
+
+.aboutContainer{
+    margin-top: 4rem;
+    margin-left: 15rem;
+    width: 300px;
+}
+
+.aboutMeImageContainer{
+    position: absolute;
+    right: 400px;
+    top: 128px;
+}
+
+.aboutMeImage{
+    height: 300px;
+}
+
+.aboutBorder{
+    display: block;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px){
+    .aboutMeImageContainer{
+        right: 3%;
+    }
+}
+
+@media (max-width: 850px){
+    .aboutContainer{
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width: 700px){
+    .aboutContainer{
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 650px){
+    .aboutContainer{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 620px){
+    .aboutMeImageContainer{
+        display: none;
+    }
+
+    .aboutContainer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

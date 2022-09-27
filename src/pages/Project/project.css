@@ -1,0 +1,14 @@
+.imgContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.putMarginLeft{
+    margin-left: 1rem;
+}
